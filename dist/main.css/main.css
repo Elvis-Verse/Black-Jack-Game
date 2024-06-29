@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+  font-weight: 700;
+}
+
+h1 {
+  color: goldenrod;
+  text-align: center;
+  margin: 2rem;
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+}
+
+p {
+  margin: 2rem;
+  white-space: nowrap;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.result {
+  border: 2px solid blue;
+  padding: 7rem;
+}
+
+.result1 {
+  margin-bottom: 2rem;
+}
+
+button {
+  width: 10rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  color: inherit;
+  background-color: red;
+  margin-bottom: 2rem;
+}
+button:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.message-el {
+  margin: 2rem;
+  color: aqua;
+  white-space: wrap;
+}/*# sourceMappingURL=main.css.map */
